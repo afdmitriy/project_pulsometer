@@ -1,0 +1,140 @@
+@media (max-width: 1200px) {
+   .promo {
+      min-height: 640px;
+      &__wrapper {
+         margin-top: 80px;
+      }
+   }
+}
+
+@media (max-width: 991px) {
+   .container {
+      max-width: 90%;
+   }
+   .advantages {
+      padding: 60px 0 74px;
+      &__wrapper {
+         margin-top: 50px;
+      }
+      &__item {
+         max-width: 226px;
+         font-size: 16px;
+      }
+      &__descr {
+         margin-top: 18px;
+         font-size: 12px;
+         font-weight: 700;
+      }
+   }
+}
+
+@media (max-width: 767px) {
+   .header {
+      &__logo {
+         width: 200px;
+         img {
+            width: 100%;
+         }
+      }
+      &__phone {
+         font-size: 14px;
+      } 
+      &__official {
+      span {
+         font-size: 15px;
+         }
+      }    
+   }
+   .button {
+      width: 130px;
+      height: 26px;
+      font-size: 12px;
+      &_main {
+         margin-top: 60px;
+         width: 250px;
+         height: 40px;
+         font-size: 14px;
+      }
+      &_submit {
+         width: 300px;
+         height: 50px;
+         font-size: 16px;
+      }
+   }    
+   .advantages {
+      &__wrapper {
+         margin: 50px auto 0;
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+      &__item {
+         max-width: 400px;
+         font-size: 20px;
+         img {
+            padding-top: 30px;
+         }
+      }
+      &__descr {
+         font-size: 18px;
+         font-weight: 500;
+      }
+   }    
+}
+
+@media (max-width: 575px) {
+   .promo {
+      padding: 14px 0 80px;
+      &__wrapper {
+         margin-top: 60px;
+      }
+      &__header {
+         font-size: 24px;
+         line-height: 40px;
+      }
+      &__subheader {
+         font-size: 18px;
+      }
+      &__icons {
+         width: 300px;
+         margin-top: 54px;
+      }
+      &__icon {
+         width: 100%;
+         text-align: center;
+         img {
+            display: block;
+            height: 46px;
+            margin: 0 auto 12px;
+         }
+      }
+   }
+   .header {
+      &__logo {
+         width: 154px;
+      }
+      &__phone {
+         font-size: 12px;
+      } 
+      &__official {
+         display: none;
+      }    
+   }
+   .button {
+      width: 120px;
+      height: 26px;
+      font-size: 10px;
+      &_main {
+         margin-top: 40px;
+         width: 180px;
+         height: 34px;
+         font-size: 12px;
+      }
+      &_submit {
+         width: 300px;
+         height: 50px;
+         font-size: 16px;
+      }
+   }
+}
